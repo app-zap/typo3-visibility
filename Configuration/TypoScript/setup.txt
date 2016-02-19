@@ -1,5 +1,5 @@
-tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 = CASE
-tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 {
+lib.visibilityClass = CASE
+lib.visibilityClass {
     key.field = tx_visibility_visibility
     default = TEXT
     default.value =
@@ -8,3 +8,6 @@ tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 {
     2 = TEXT
     2.value = {$plugin.tx_visibility.hideForDesktopClass}
 }
+
+# visbility class
+tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 < lib.visibilityClass

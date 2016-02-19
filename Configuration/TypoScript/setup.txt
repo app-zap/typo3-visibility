@@ -7,6 +7,10 @@ lib.visibilityClass {
     1.value = {$plugin.tx_visibility.hideForMobileClass}
     2 = TEXT
     2.value = {$plugin.tx_visibility.hideForDesktopClass}
+    3 = TEXT
+    3.value = {$plugin.tx_visibility.hideForTouchDeviceClass}
+    4 = TEXT
+    4.value = {$plugin.tx_visibility.hideForNonTouchDeviceClass}
 }
 
 # visbility class

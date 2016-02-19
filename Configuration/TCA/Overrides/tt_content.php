@@ -5,11 +5,13 @@ $GLOBALS['TCA']['tt_content']['columns'] += [
         'label' => 'Visibility',
         'config' => [
             'type' => 'select',
-            'renderType' =>  'selectSingle',
+            'renderType' => 'selectSingle',
             'items' => [
                 ['always', 0],
                 ['hide for mobile', 1],
-                ['hide for desktop', 2]
+                ['hide for desktop', 2],
+                ['hide for touch devices', 3],
+                ['hide for non-touch devices', 4],
             ]
         ],
     ],

@@ -1,4 +1,6 @@
 plugin.tx_visibility {
     hideForDesktopClass = hide-for-desktop
     hideForMobileClass = hide-for-mobile
+    hideForNonTouchDeviceClass = hide-for-non-touch-device
+    hideForTouchDeviceClass = hide-for-non-touch-device
 }

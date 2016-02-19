@@ -1,0 +1,4 @@
+plugin.tx_visibility {
+    hideForDesktopClass = hide-for-desktop
+    hideForMobileClass = hide-for-mobile
+}

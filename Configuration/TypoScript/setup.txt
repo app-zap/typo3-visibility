@@ -1,0 +1,10 @@
+tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 = CASE
+tt_content.stdWrap.innerWrap.cObject.default.20.1455874727 {
+    key.field = tx_visibility_visibility
+    default = TEXT
+    default.value =
+    1 = TEXT
+    1.value = {$plugin.tx_visibility.hideForMobileClass}
+    2 = TEXT
+    2.value = {$plugin.tx_visibility.hideForDesktopClass}
+}

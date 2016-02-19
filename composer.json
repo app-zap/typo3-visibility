@@ -1,0 +1,11 @@
+{
+	"name": "app-zap/typo3-visibility",
+	"description": "Visibility",
+	"type": "typo3-cms-extension",
+	"version": "1.0.1",
+	"autoload": {
+		"psr-4": {
+			"AppZap\\Visiblity\\": "Classes/"
+		}
+	}
+}
